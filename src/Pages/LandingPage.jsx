@@ -87,7 +87,7 @@ const LandingPage = ({ theme }) => {
               },
               padding: { xs: "8px 20px", md: "10px 30px" },
             }}
-            href="/contactUs"
+            href="mailto:riyavij2001@gmail.com"
           >
             Get in touch
           </Button>
