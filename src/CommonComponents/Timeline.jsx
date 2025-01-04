@@ -20,7 +20,7 @@ const HTimeline = ({ theme }) => {
           alignItems: 'center',
           textAlign: 'center',
           marginTop: '4rem',
-          paddingX: { xs: '1rem', sm: '2rem', md: '3rem' }, // Padding for container
+          paddingX: { xs: '0rem', sm: '2rem', md: '3rem' }, // Padding for container
         }}
       >
         {/* About Section */}
@@ -75,7 +75,7 @@ const HTimeline = ({ theme }) => {
                 <Box
                   sx={{
                     width: '100%',
-                    paddingLeft: { xs: '10px', sm: '20px', md: '30px' },
+                    paddingLeft: { xs: '0px', sm: '20px', md: '30px' },
                     textAlign: 'left',
                     color: theme === 'dark' ? 'rgba(255, 255, 255, 0.8)' : 'rgb(10, 37, 75)',
                   }}
@@ -99,7 +99,7 @@ const HTimeline = ({ theme }) => {
                 <Box
                   sx={{
                     width: '100%',
-                    paddingLeft: { xs: '10px', sm: '20px', md: '30px' },
+                    paddingLeft: { xs: '0px', sm: '20px', md: '30px' },
                     textAlign: 'left',
                     color: theme === 'dark' ? 'rgba(255, 255, 255, 0.8)' : 'rgb(10, 37, 75)',
                   }}
@@ -123,7 +123,7 @@ const HTimeline = ({ theme }) => {
                 <Box
                   sx={{
                     width: '100%',
-                    paddingLeft: { xs: '10px', sm: '20px', md: '30px' },
+                    paddingLeft: { xs: '0px', sm: '20px', md: '30px' },
                     textAlign: 'left',
                     color: theme === 'dark' ? 'rgba(255, 255, 255, 0.8)' : 'rgb(10, 37, 75)',
                   }}
@@ -147,7 +147,7 @@ const HTimeline = ({ theme }) => {
                 <Box
                   sx={{
                     width: '100%',
-                    paddingLeft: { xs: '10px', sm: '20px', md: '30px' },
+                    paddingLeft: { xs: '0px', sm: '20px', md: '30px' },
                     textAlign: 'left',
                     color: theme === 'dark' ? 'rgba(255, 255, 255, 0.8)' : 'rgb(10, 37, 75)',
                   }}
@@ -170,7 +170,7 @@ const HTimeline = ({ theme }) => {
                 <Box
                   sx={{
                     width: '100%',
-                    paddingLeft: { xs: '10px', sm: '20px', md: '30px' },
+                    paddingLeft: { xs: '0px', sm: '20px', md: '30px' },
                     textAlign: 'left',
                     color: theme === 'dark' ? 'rgba(255, 255, 255, 0.8)' : 'rgb(10, 37, 75)',
                   }}
