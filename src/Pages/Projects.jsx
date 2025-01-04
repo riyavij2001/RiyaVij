@@ -148,7 +148,7 @@ const Projects = ({ theme }) => {
                                 boxShadow: "0px 5px 20px rgba(0, 217, 255, 0.6)",
                             },
                         }}
-                        href="/projects"
+                        href="https://github.com/riyavij2001"
                     >
                         Check Out More Projects
                     </Button>
