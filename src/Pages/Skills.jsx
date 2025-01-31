@@ -24,6 +24,7 @@ const Skills = ({ theme }) => {
                 color: "white",
                 paddingTop: "3rem",
             }}
+            id="skills"
         >
             <Container
                 sx={{

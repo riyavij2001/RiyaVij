@@ -8,7 +8,7 @@ import { styled } from '@mui/material/styles';
 import { AppBar, Avatar, Box, Button, Container, FormControlLabel, FormGroup, IconButton, Menu, MenuItem, Toolbar, Tooltip, Typography } from '@mui/material';
 import { dark } from '@mui/material/styles/createPalette';
 
-const pages = [{name: 'Home', link: "#home"}, {name: 'About Me', link: "#about"}, {name: 'Projects', link: "#projects"}, {name: 'Contact Me', link: "#contact"}];
+const pages = [{name: 'Home', link: "#home"}, {name: 'About Me', link: "#about"}, {name: 'Projects', link: "#projects"},  {name: 'Skills', link: "#skills"}, {name: 'Contact Me', link: "#contact"}];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const CommonNavbar = ({ theme, toggleTheme }) => {
