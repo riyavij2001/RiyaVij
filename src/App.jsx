@@ -30,7 +30,7 @@ function App() {
         <LandingPage theme={theme} />
         <AboutMe theme={theme} />
         <Projects theme={theme} />
-        {/* <Skills theme={theme} /> */}
+        <Skills theme={theme} />
         <Contact theme={theme} />
       </div>
     </>
