@@ -49,7 +49,7 @@ const Contact = ({theme}) => {
                         marginTop: "2rem",
                     }}
                 >
-                    <span style={{ color: "#00d9ff" }}>Say Hello! </span> Interested in working together? Or maybe you just want to chat?
+                    <span>   <a style={{color: "#00d9ff", textDecoration:'none'}} href="mailto:riyavij2001@gmail.com">Say Hello!</a> </span> Interested in working together? Or maybe you just want to chat?
                     Either way, I'd love to hear from you!
                 </Typography>
 

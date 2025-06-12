@@ -49,7 +49,7 @@ const HTimeline = ({ theme }) => {
             textAlign: 'center',
           }}
         >
-          From my academic foundation to hands-on experience in the tech industry, my journey as a Full-Stack Developer has been a learning curve filled with passion, persistence, and continuous growth. Here’s a glimpse of my journey—from my education to the internships and roles that have shaped my skills and experience.
+          From my academic foundation to hands-on experience in the tech industry, my journey as a Full-Stack Developer has been a learning curve filled with passion, persistence, and continuous growth. Here’s a glimpse of my journey from my education to the internships and roles that have shaped my skills and experience.
         </Typography>
 
         {/* Timeline Section */}

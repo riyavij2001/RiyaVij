@@ -58,7 +58,7 @@ const Projects = ({ theme }) => {
                     Code in <span style={{ color: "#00d9ff" }}> Action </span>: Showcasing My Work
                     <br />
                     <br />
-                    <span>In this space, I don’t just build software—I build dreams. Each project here is a perfect blend of creativity, code, and problem-solving. I take pride in crafting solutions that not only work but inspire. Take a stroll through my portfolio and discover the projects that are as fun to work on as they are to use. Ready to build something amazing together? Let's talk!
+                    <span>Here are some of the projects I’ve worked on, showcasing my skills in full stack development, system design, and user experience. These projects reflect my ability to build real-world applications using modern technologies and best practices from responsive frontend interfaces to robust backend systems.
 
                     </span>
                 </Typography>

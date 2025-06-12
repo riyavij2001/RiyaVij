@@ -1,9 +1,9 @@
 import React from "react";
 import { Box, Typography, Button, Container } from "@mui/material";
-import { GitHub, LinkedIn, MailOutline } from "@mui/icons-material"; 
+import { GitHub, LinkedIn, MailOutline } from "@mui/icons-material";
 import HTimeline from "../CommonComponents/Timeline";
 
-const AboutMe = ({theme}) => {
+const AboutMe = ({ theme }) => {
     return (
         <div
             style={{
@@ -43,19 +43,19 @@ const AboutMe = ({theme}) => {
                     sx={{
                         maxWidth: "80rem",
                         fontSize: { xs: "1rem", sm: "1.3rem", md: "1.5rem" },
-                        color:  theme === 'dark' ? "rgba(255, 255, 255, 0.8)": "black",
+                        color: theme === 'dark' ? "rgba(255, 255, 255, 0.8)" : "black",
                         padding: "20px",
                         lineHeight: "1.6",
                         marginTop: "2rem",
                     }}
                 >
-                    I'm <span style={{ color: "#00d9ff" }}>Riya Vij</span>, a passionate Full-Stack Developer with a 
-                    love for creating seamless, user-friendly web applications. From designing responsive, 
-                    interactive front-end experiences with React and Vue.js to building powerful, scalable 
-                    back-end systems with Node.js and MongoDB, I specialize in crafting solutions that are 
-                    both functional and aesthetically pleasing. I thrive on solving complex problems, 
-                    optimizing performance, and ensuring every project I work on delivers an exceptional 
-                    user experience. Let's turn your ideas into digital realities!
+                    I'm <span style={{ color: "#00d9ff" }}>Riya Vij</span>, a Full Stack Developer currently working as a 
+                    Software Engineer at Cyraacs. I recently completed my MCA from VIT Vellore, and bring a strong 
+                    foundation in backend systems and frontend development. With experience in technologies like Java, React js, 
+                    Spring Boot, Node.js, and C++. I’ve built and optimized scalable web applications, 
+                    integrated APIs for diverse clients, and contributed to improving system performance and 
+                    team efficiency. I enjoy solving real-world problems through clean, efficient code and 
+                    continuously learning new tools and technologies.
                 </Typography>
 
                 {/* My Journey Section */}
@@ -163,7 +163,7 @@ const AboutMe = ({theme}) => {
                         <MailOutline sx={{ color: "#00b8d8", fontSize: "2.5rem" }} />
                     </a>
                 </Box>
-                <HTimeline theme ={theme} />
+                <HTimeline theme={theme} />
             </Container>
 
         </div>
